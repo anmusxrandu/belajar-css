@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<title>Belajar css warna - anmusxrandu</title>
+<link href="warna.css" type="text/css" rel="stylesheet">
+<!-- Ada 3 cara pemilihan objek pada css yaitu dengan :
+
+1. memilih selectornya dengan tag html
+-->
+<!-- pada warna hexadesimal jika 2 simbol sama maka cukup ditulis 1 kali -->
+<style type="text/css">
+/* ini komentar */
+
+
+/*memilih selectornya dengan tag html*/
+h3{
+	color: #7b9;
+}
+h4{
+	color:red;
+}
+
+/*memilih selectornya dengan class*/
+
+.kelas{
+	color:green;
+}
+
+/*ketiga dengan memilih selectornya dengan id*/
+#id{
+	color:#f30cef;
+}
+
+</style>
+</head>
+<body>
+
+<div class="filecss"><h1>MENGGUNAKAN FILE CSS DI LUAR FILE</h1></div>
+
+<div id="id">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<h6 class="kelas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+
+<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+
+<!-- Pada css terdapat 3 cara untuk menggunakanya yaitu dengan : 
+1. langsung pada elemen yang ingin kita beri tampilan menggunakan atribut style dan css berisi :
+     property : value;
+2. dengan menggunakan tag style diletakan di antara tag head
+3. dengan file css kemudian di hubungkan dengan file html pada tag head
+-->
+
+<!-- Pada Warna Terdapat 3 cara pemberian value yaitu dengan :
+1. nama warna dalam bahasa inggris
+-->
+<h1 align="center" style="
+color:orange;
+">belajar css warna - anmusxrandu</h1>
+
+<!-- 
+2. memberi nilai hexadesimal contoh #00ff00
+pada hexadesimal setiap warna memiliki 6 simbol dan setiap simbol dimulai dari 0 sampai f jadi seperti ini
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ,a, b, c, d, e, f
+tinggal sembarang saja 6 simbol memilih salah satunya
+contoh :
+#d96ec3
+#8d0f3b
+-->
+<p style="
+color:#7fd9fb;
+">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<!--
+3. dengan memberi nilai rgb contoh rgb(255, 255, 100)
+pada rgb memiliki 3 angka yang masing-masing dimulai dari angka 0 sampai angka 255 contoh
+rgb(120, 45, 90)
+rgb(200, 68, 168)
+sama seperti hexadesimal kita tinggal sembarang saja memilihnya
+-->
+<p style="
+color : rgb(146, 159, 203);
+">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>

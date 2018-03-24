@@ -1,0 +1,70 @@
+.float {
+	width :200px;
+	height:200px;
+	background-color: #0ff;
+	display:block;
+	/*
+float digunakan untuk mengatur letak dari sebuah elemen, memiliki 2 value yaitu :
+left    : digunakan agar elemen berada di sebelah kiri
+right   : digunakan agar elemen berada di sebelah kanan
+	*/
+	float:right;
+}
+
+.konten{
+	width: 1100px;
+	background-color: #0f3;
+}
+.clear{
+	clear: both;
+		/*
+clear di gunakan untuk membersihkan float yang ada dimana antar elemen sudah tidak dianggap memiliki float, memiliki 3 value :
+left
+right
+both
+biasanya clear di gunakan pada div kosong atau elemen yang di pilih hanya 1
+	*/
+}
+.artikel{
+	/* jika elemen yang di pilih 2,3 atau lebih maka tampilanya akan berantakan */
+	width:400px;
+	height: 200px;
+	background-color: #0f3;
+	/*
+display digunakan untuk menentukan letak dari antar elemen defaultnya elemen pada tag p memiliki value block
+display memiliki 3 value yaitu :
+block          : digunakan agar elemen yang dipilih ganti baris setiap membuat elemen baru
+inline         : digunakan agar elemen baru yang dipilih tetap disamping elemen yang lama, hanya saja jika memilih inline maka width dan height tidak bisa digunakan dan tinggi elemen mengikuti tinggi konten
+inline-block   : digunakan agar elemen baru yang dipilih tetap disamping elemen yang lama, width dan height bisa digunakan, jika satu baris tidak cukup untuk menaruh elemen maka akan di taruh di bawahnya
+	*/
+	display:inline-block;
+}
+.overflow{
+	width: 1200px;
+	height: 300px;
+	background-color: #0f3;
+	/*
+overflow digunakan untuk mengatur jika konten melebihi tinggi elemen, memiliki 4 value :
+hidden   : digunakan untuk menyembunyikan konten yang melebihi elemen
+scroll   : digunakan untuk membuat scroll pada elemen, meskipun konten tidak melebihi elemen
+auto     : digunakan otomatis, artinya bila konten tidak melebihi elemen maka scroll tidak akan 
+ditampilkan
+visibel  : digunakan untuk menampilkan konten yang melebihi elemen
+	*/
+}
+.position{
+	margin: 0;
+	width: 1350px;
+	height:30px;
+	background-color: #ff0;
+	/*
+position digunakan untuk mengatur posisi elemen terhadap elemen pembungkusnya, pada contoh pembungkusnya
+adalah body, memiliki 4 value :
+fixed     : digunakan agar elemen tetap berada di posisi yang di tentukan pada elemen pembungkusnya,
+bisanya digunakan untuk membuat navbar
+relative  :
+static    :
+absolute  :
+	*/
+	position:fixed;
+}

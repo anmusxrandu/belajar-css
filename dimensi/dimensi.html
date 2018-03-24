@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>Belajar CSS Dimensi - anmusxrandu</title>
+<style type="text/css">
+.dimensi1{
+	background-color: #0f3;
+	min-width: 500px;
+	max-width: 700px;
+	/*
+min height di gunakan untuk mengatur minimal tinggi dari suatu elemen walaupun konten tidak memenuhi elemen maka elemen tetap setinggi yang di atur.
+jika min height tidak di atur maka tinggi elemen sesuai dengan konten
+begitu juga dengan max-height jika tidak diatur maka tinggi elemen sama dengan tinggi konten, jika di atur maka tinggi elemen tidak terpengaruh terhadap tinggi konten
+	*/
+	/*
+fungsi dari min width dan max width sama dengan min height dan max height
+jadi walaupun konten sedikit karena telah di atur min width dengan min height maka elemen tidak akan terpengruh
+	*/
+	min-height: 150px;
+	max-height: 200px;
+}
+body{
+	width: 500px;
+}
+.dimensi2{
+	min-height: 30%;
+	min-width: 50%;
+	max-height: 50%;
+	max-width: 50%;
+/*
+jika menggunakan persen maka elemen akan melihat dari elemen pembungkusnya, dalam hal ini pembungkus elemen div dengan class dimensi 2 adalah body maka akan menentukan persen dari tinggi atau lebar body
+saat ini lebar body sudah di atur menjadi 500px
+jadi 70% dari lebar body sekitar 300px karena body 500px, contoh jika 50%
+*/
+/*
+line height di gunakan untuk mengatur jarak konten dengan elemen
+*/
+    line-height: 250px;
+
+	background-color: #f0f;
+}
+</style>
+</head>
+<body>
+<div class="dimensi2">
+<p>lorem ipsun dolor site amet</p>
+</div>
+
+<div class="dimensi1">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+</html>

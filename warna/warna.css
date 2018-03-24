@@ -1,0 +1,17 @@
+.filecss{
+	background-color: yellow;
+	color:#ff0000;
+}
+/*
+Cara ini merupaka cara terbaik yang paling banyak di lakukan oleh programmer karena dengan file css terpisah
+dengan file html maka akan terlihat rapih dan 1 file css bisa di gunakan oleh banyak file html
+dengan syarat file harus di panggil dan menggunakan kelas atau cara yang sama
+*/
+.gambar{
+	background-image: url("css.png");
+	background-size: 250px;
+	color :#000;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-position:center top;
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<title>Belajar CSS Kotak</title>
+<style type="text/css">
+.container{
+	width: 900px;
+	height: 200px;
+	background-color: #0f3;
+	/*
+margin digunakan untuk mengatur jarak diluar elemen dengan elemen lainya.
+pada isi : 
+pertama jarak pada atas elemen
+kedua jarak pada kanan elemen
+ketiga jarak pada bawah elemen 
+keempat jarak pada kiri elemen
+atau perputaranya searah jarum jam
+	*/
+	margin: 50px;
+	/*
+padding di gunakan untuk mengatur jara di dalam elemen dengan konten.
+isi dari padding sama dengan margin yaitu perputaranya searah jarum jam
+	*/
+	padding : 50px;
+    /*
+lebar elemen di tentukan dari atribut width + padding + border
+border di gunakan untuk membuat bingkai pada sebuah elemen
+border memilik 3 value yaitu :
+value pertama merupakan tebal bingkai
+value kedua merupakan gaya bingkai dan
+value ketiga merupakan warna bingkai
+ada beberapa gaya dari border yang ada yaitu :
+dotted
+solid
+bashed
+double
+dll
+    */
+    border : 5px dashed black;
+}
+.lengkap{
+	width: 500px;
+	height: 100px;
+	background-color: #ff0;
+	margin : -500px 0px 10px 400px;
+	/*
+nilai dari margin bisa bernilai negatif, auto digunakan agar berada di tengah elemen
+pada margin, padding dan border jika keempat valuenya sama bisa di tulis satu kali
+	*/
+}
+</style>
+</head>
+<body>
+<div class="container">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<div class="container">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div class="lengkap">
+	Ini Adalah Paragraf Ini Adalah Paragraf Ini Adalah Paragraf.
+</div>
+</body>
+</html>
